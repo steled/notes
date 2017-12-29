@@ -1,0 +1,63 @@
+/*
+// Visual Studio Code Snippet File - PowerShell
+// Place the File at: C:\User\{User}\AppData\Roaming\Code\User\snippets\
+// Documentation: https://code.visualstudio.com/docs/editor/userdefinedsnippets
+*/
+
+{
+/*
+// Place your snippets for PowerShell here. Each snippet is defined under a snippet name and has a prefix, body and 
+// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+// same ids are connected.
+// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	"Load vSphere PowerCLI": {
+		"prefix": "loadPCLI",
+		"body": [
+			"# Load vSphere PowerCLI",
+			"if (!(Get-Module -Name \"VMware.VimAutomation.Core\")) {",
+			"\tif (Test-Path \"C:\\Program Files (x86)\\VMware\\Infrastructure\\vSphere PowerCLI\\Scripts\\Initialize-PowerCLIEnvironment.ps1\") {",
+			"\t\t.\"C:\\Program Files (x86)\\VMware\\Infrastructure\\vSphere PowerCLI\\Scripts\\Initialize-PowerCLIEnvironment.ps1\"",
+			"\t} else {",
+			"\t\tWrite-Warning \"Unable to find Module 'VMware.VimAutomation.Core' and can't load 'C:\\Program Files (x86)\\VMware\\Infrastructure\\vSphere PowerCLI\\Scripts\\Initialize-PowerCLIEnvironment.ps1'\"",
+			"\t\treturn",
+			"\t}",
+			"}",
+			"$0"
+		],
+		"description": "Load vSphere PowerCLI"
+	},
+
+	"Connect to VIServer": {
+		"prefix": "connectVIServer",
+		"body": [
+			"#Connect to VIServer",
+			"if (!(\\$viServer = Connect-VIServer -Server \\$server -Credential (Get-Credential -Message \"Login for \\$server\") -ErrorAction SilentlyContinue)){",
+			"\tWrite-Warning \"Unable to connect to VIServer. Script will be aborted.\"",
+			"\tWrite-warning \\$error[0].Exception.Message",
+			"\treturn",
+			"}",
+			"$0"
+		],
+		"description": "Connect to Virtual Infrastructure Server (vCenter or ESX)"
+	},
+
+	"Disconnect from VIServer": {
+		"prefix": "disconnectVIServer",
+		"body": [
+			"#Disconnect from VIServer",
+			"\\$viServer | Disconnect-VIServer -Force:\\$true -Confirm:\\$false",
+			"$0"
+		],
+		"description": "Disconnect from Virtual Infrastructure Server (vCenter or ESX)"
+	}
+}

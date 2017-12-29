@@ -1,0 +1,32 @@
+# Quelle
+
+https://www.heise.de/developer/artikel/Docker-Windows-Container-mit-Ansible-managen-1-2-3824736.html
+https://www.heise.de/developer/artikel/Docker-Windows-Container-mit-Ansible-managen-2-2-3838642.html
+https://blog.codecentric.de/en/2017/01/ansible-windows-spring-boot/
+
+# Dependencies - Software
+
+Windows
+- chocolatey (https://chocolatey.org/)
+- Windows Server 2016 ISO (https://www.microsoft.com/de-de/evalcenter/evaluate-windows-server-2016)
+- VirtualBox (https://www.virtualbox.org/)
+- Vagrant (https://www.vagrantup.com/)
+- Packer (https://www.packer.io/)
+- Git (https://git-scm.com/)
+- Windows Subsystem for Linux
+- Ansible (http://docs.ansible.com/ansible/latest/intro_windows.html#using-a-windows-control-machine)
+
+Linux
+- Ansible (https://www.ansible.com/)
+
+# Dependencies - General
+
+- GitHub-Repository lokal
+	- https://github.com/jonashackt/ansible-windows-docker-springboot
+
+-----------------
+
+Ansible Workshop
+https://github.com/jannikhuels/workshop-handson-ansible
+http://yaml.org/refcard.html
+http://yaml.org/start.html

@@ -1,0 +1,39 @@
+How to mount and unmount CDROMs in ESXi
+Quelle:	https://osdude.wordpress.com/2010/09/29/how-to-mount-and-unmount-cdroms-in-esxi/
+---------------------------------------
+mount
+- vmkload_mod iso9660
+- /sbin/vsish -e set /vmkModules/iso9660/mount mpx.vmhba32:C0:T0:L0
+- ls -al /vmfs/volumes/CDROM
+- ls /vmfs/volumes/CDROM
+
+unmount
+- /sbin/vsish -e set /vmkModules/iso9660/umount mpx.vmhba32:C0:T0:L0
+- ls /vmfs/volumes
+- vmkload_mod -u iso9660
+
+###############################################################################################
+
+How to provision nested ESXi hosts on free ESXi
+-----------------------------------------------
+Quelle:	https://www.v-front.de/2014/01/how-to-provision-nested-esxi-hosts-on.html
+
+###############################################################################################
+
+Get-View Part 1: Introduction to Get-View
+Quelle:	https://blogs.vmware.com/PowerCLI/2015/02/get-view-part-1-introduction.html
+-----------------------------------------
+$vm = get-view –viewtype VirtualMachine –filter @{“Name”=”cc03vcn0001"}
+$vm
+$vm.Config
+
+###############################################################################################
+
+Get-View Part 2: Views and Extension Data
+Quelle:	https://blogs.vmware.com/PowerCLI/2015/02/get-view-part-2-views-extension-data.html
+-----------------------------------------
+$vm = Get-VM "cc03vcn0001"
+$vm
+$vm.ExtensionData.Summary.Config
+
+###############################################################################################

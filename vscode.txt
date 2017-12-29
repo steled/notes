@@ -1,0 +1,7 @@
+# Portable Version
+https://241931348f64b1d1.wordpress.com/2016/07/22/how-to-use-portable-visual-studio-code-and-git/
+
+------------------
+
+# Tips & Tricks
+https://code.visualstudio.com/docs/getstarted/tips-and-tricks
