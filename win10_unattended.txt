@@ -1,0 +1,3 @@
+https://technet.microsoft.com/de-de/library/mt297533(v=vs.85).aspx
+https://docs.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/
+http://windowsafg.no-ip.org/
