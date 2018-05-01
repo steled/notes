@@ -1,1 +1,2 @@
 http://freebsd.1045724.x6.nabble.com/iwm-drives-does-not-work-for-Intel-Wireless-AC-3165-td6222287.html#a6222302
+https://www.freebsd.org/doc/handbook/network-wireless.html
