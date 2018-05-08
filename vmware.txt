@@ -15,7 +15,6 @@ unmount
 ###############################################################################################
 
 How to provision nested ESXi hosts on free ESXi
------------------------------------------------
 Quelle:	https://www.v-front.de/2014/01/how-to-provision-nested-esxi-hosts-on.html
 
 ###############################################################################################
@@ -37,3 +36,23 @@ $vm
 $vm.ExtensionData.Summary.Config
 
 ###############################################################################################
+
+VMware vConverter Linux SoftRAID
+Quelle: https://www.linuxquestions.org/questions/linux-server-73/vmware-converter-p-to-v-with-software-raid-missing-boot-4175502903/
+--------------------------------
+fdisk /dev/sdb
+	n
+	p
+	1
+	[ENTER]
+	[ENTER]
+	t
+	83
+	w
+mkfs.ext3 /devsdb1
+dd if=/dev/md0 of=/dev/sdb1 bs=4M
+umount /boot
+mount /dev/sdb1 /boot
+cp /etc/fstab /etc/fstab.bak
+vi /etc/fstab
+	/dev/sdb1               /boot
