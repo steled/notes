@@ -1,0 +1,63 @@
+# get application folder
+$StrSkriptFolder = (myinvocation.My-Command).Path | Split-Path -Parent
+
+# get relative structure
+$StrOutputFolder = $ActualSkriptPath + "\output";
+
+Folder-Structure
+|-ScriptRoot
+  |-MyApp1
+    |-functions
+    |-inc
+    |-input
+    |-logs
+      |-errorlogs
+      |-functionlogs
+    |-output
+
+Error-Logging
+- kritische Fehler in Error-Log
+- Speicherung als CSV-Datei mit Spalten für:
+    - Datum/Uhrzeit
+    - Verarbeitung welche Fehler verursacht hat
+    - Fehlerlevel (error, warning, info)
+    - optional Zeile im Quellcode
+- Verwendung einer echten Funktion
+
+Function-Logging
+- erstellen, löschen, verschieben und umbenennennvon Objekten protokollieren
+
+Includes
+- für Skriptfragmente und Konstanten (Skriptlets)
+
+Quelltext-Formatierung
+- Bereiche des Quellcodes zu logischen Einheiten zusammenfassen (Region)
+    - region init
+        - Variablen Initialisierung
+        - Einbindung externer Bibliotheken
+        - Hoststeuerung ($ErroractionPreference)
+    - region process
+        - Hauptverarbeitung
+    - region clear
+        - Logging beenden, $Var = $Null
+    - region testing
+        - Pfade im Dateisystem oder externe Bibliotheken auf Existenz prüfen
+- Abgrenzung von Anweisungsblöcken (foreach, if, ...) mittels Klammern in eigene Zeile
+
+Dokumentation
+- Kommentare innerhalb des Quelltext immer vor der Anweisung
+
+Debugging
+- "Set-PSDebug -trace 2" startet zeilenweises Debugging mit Variablenverfolgung
+
+Error-Handling
+- "$ErroractionPreference = Continue" behandelt nur kritische Fehler
+- "$ErroractionPreference = Stop" behandelt jeden Fehler als kritisch
+    - ermöglicht die anweisungsbezogene Fehlerbehandlung mittels "try/catch/finally"
+- bei Beendigung der Anwendung als Reaktion auf Fehlerfall sollte Anweisung "exit" ein Wert mitgegeben werden
+    - Exit-Wert ist über Variable "$LASTEXITCODE" abrufbar
+
+Allgemeine Hinweise
+- Vorsicht bei häufigem EInsatz der Pipeline, Gesamtverarbeitungszeit leidet darunter
+    - mittels "measure"-Command kann Verarbeitungszeit gemessen werden
+- Abhängigkeiten mittels "#Requires" steuern
