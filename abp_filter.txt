@@ -1,0 +1,12 @@
+||dywolfer.de/*
+finanzen.net###news-contentads
+winfuture.de##.acceptable_ad
+winfuture.de###frnAdSkyPos
+finanztrends.info##.yes_scrollbox
+heise.de##.ob-widget.ob-strip-layout.CRAB_1
+winfuture.de##.OUTBRAIN.nodigidip
+winfuture.de##.OUTBRAIN.ob-shrink
+computerbase.de##.adbox-wrapper.adbox-wrapper--rectangle
+computerbase.de##.adbox.adbox-skyscraper.ax-skyscraper
+computerbase.de##.adbox.adbox-banner.ax-banner
+heise.de##.teaser_adliste.akwa-ad-container.akwa-ad-container__microsite-list.hoteaser
