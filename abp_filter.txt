@@ -1,3 +1,4 @@
+||popads.media^
 ||dywolfer.de/*
 finanzen.net###news-contentads
 winfuture.de##.acceptable_ad
