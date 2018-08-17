@@ -12,3 +12,5 @@ computerbase.de##.adbox.adbox-banner.ax-banner
 heise.de##.teaser_adliste.akwa-ad-container.akwa-ad-container__microsite-list.hoteaser
 heise.de##.recommendations
 heise.de##.us_ad.akwa-ad-container.akwa-ad-container__us-ad
+heise.de##.teaser_adliste.akwa-ad-container.akwa-ad-container__microsite-list.developerteaser
+heise.de##.adbottom.akwa-ad-container.akwa-ad-container__ad-bottom
