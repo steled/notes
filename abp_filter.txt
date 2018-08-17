@@ -10,3 +10,5 @@ computerbase.de##.adbox-wrapper.adbox-wrapper--rectangle
 computerbase.de##.adbox.adbox-skyscraper.ax-skyscraper
 computerbase.de##.adbox.adbox-banner.ax-banner
 heise.de##.teaser_adliste.akwa-ad-container.akwa-ad-container__microsite-list.hoteaser
+heise.de##.recommendations
+heise.de##.us_ad.akwa-ad-container.akwa-ad-container__us-ad
