@@ -1,11 +1,9 @@
-||popads.media^
-||dywolfer.de/*
+winfuture.de##.OUTBRAIN.nodigidip
 finanzen.net###news-contentads
 winfuture.de##.acceptable_ad
 winfuture.de###frnAdSkyPos
 finanztrends.info##.yes_scrollbox
 heise.de##.ob-widget.ob-strip-layout.CRAB_1
-winfuture.de##.OUTBRAIN.nodigidip
 winfuture.de##.OUTBRAIN.ob-shrink
 computerbase.de##.adbox-wrapper.adbox-wrapper--rectangle
 computerbase.de##.adbox.adbox-skyscraper.ax-skyscraper
@@ -15,3 +13,6 @@ heise.de##.recommendations
 heise.de##.us_ad.akwa-ad-container.akwa-ad-container__us-ad
 heise.de##.teaser_adliste.akwa-ad-container.akwa-ad-container__microsite-list.developerteaser
 heise.de##.adbottom.akwa-ad-container.akwa-ad-container__ad-bottom
+||popads.media^
+||dywolfer.de/*
+*c1527284015933.js
