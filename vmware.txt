@@ -56,3 +56,21 @@ mount /dev/sdb1 /boot
 cp /etc/fstab /etc/fstab.bak
 vi /etc/fstab
 	/dev/sdb1               /boot
+
+###############################################################################################
+
+Ex-/Import VMs
+
+Export-VM -VM fra-prod-bank-arch-tmp-emp -Format Ovf -Destination "<Destination_Folder>" -Name <Destination_VM_Name> -Force
+
+Import-VApp -Source "<Source_OVF_File>" -VMHost $(Get-VMHost -Name "<Destination_Host>")
+
+###############################################################################################
+
+Mount VMDK on Windows
+#Quelle: http://www.running-system.com/how-to-mount-a-vmdk-file-under-windows/
+
+cd "C:\Program Files (x86)\VMware\VMware Virtual Disk Development Kit\bin"
+.\vmware-mount.exe /m:w /v:2 v: "C:\Users\stephan.leddin\Downloads\ber-stg-test-ads02-emp - Disk\ber-stg-test-ads02-emp.vmdk"
+.\vmware-mount.exe /d v:
+.\vmware-mount.exe /L
