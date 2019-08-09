@@ -16,3 +16,4 @@ heise.de##.adbottom.akwa-ad-container.akwa-ad-container__ad-bottom
 ||popads.media^
 ||dywolfer.de/*
 *c1527284015933.js
+||scr.wfcdn.de/1/*/*.jpg
