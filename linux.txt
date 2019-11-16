@@ -5,4 +5,3 @@ Quelle: https://www.pluralsight.com/blog/it-ops/linux-hardening-secure-server-ch
 Partition Disk
 - Guided - use entire disk and set up encrypted LVM
 - Separate /home, /usr, /var and /tmp partitions
-h
