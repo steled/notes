@@ -18,3 +18,5 @@ heise.de##.adbottom.akwa-ad-container.akwa-ad-container__ad-bottom
 *c1527284015933.js
 ||scr.wfcdn.de/1/*/*.jpg
 ||goldesel.to/img/*.gif
+boersennews.de##div[class*="pub_ads"]+div
+boersennews.de##.col-md-4
