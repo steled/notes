@@ -29,3 +29,6 @@ gmx.net##nav-app-dialog[class*=dialog-app__blocker]
 @@||eu-tlp01.kameleoon.eu/visit.gif?lp=3&spt=1641308686395&p=c2l0ZUNvZGU9eXhzdTV1ZmQybSZ2aXNpdG9yQ29kZT00MzBieDRiM2gwamgwcTA2JnN0YXJ0T2ZWaXNpdD1mYWxzZSZzY3JpcHRWZXJzaW9uPTIwMTkwMTE1Jm5vbmNlPTQwNUYxNUVCRTI5REIwMkMmZXZlbnRUeXBlPWFjdGl2aXR5JnRpbWU9MTY0MTczMjI4OTMxOSZhY3RpdmU9dHJ1ZSZudW1iZXJDbGlja3M9MCZ0YWJDb3VudD0w
 heise.de##.recommendations wide
 ||cdn.consentmanager.net/delivery/js/cmp_de.min.js
+linuxize.com###ez-cookie-dialog-wrapper
+linuxize.com##.ez_banner.pre-render-cmp.ez-main-cmp-wrapper.ez-twentytwentytwo
+||computerbase.de/*main.74fbdb11.js^$script
