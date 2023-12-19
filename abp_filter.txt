@@ -32,3 +32,4 @@ linuxize.com###ez-cookie-dialog-wrapper
 linuxize.com##.ez_banner.pre-render-cmp.ez-main-cmp-wrapper.ez-twentytwentytwo
 computerbase.de/js/main.*.js
 cp.winfuture.de/chunks/chunk-cmp-consentmanager.*.js
+cdn.consentmanager.net/delivery/js/cmp_de.min.js
