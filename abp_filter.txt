@@ -34,3 +34,4 @@ computerbase.de/js/main.*.js
 cp.winfuture.de/chunks/chunk-cmp-consentmanager.*.js
 cdn.consentmanager.net/delivery/js/cmp_de.min.js
 winfuture.de###taboola-below-article-thumbnails-desktop
+https://a.delivery.consentmanager.net/delivery/cmp.php?&cdid=91c2d8acd39c&h=https%3A%2F%2Fwinfuture.de
