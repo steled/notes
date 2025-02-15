@@ -2,7 +2,7 @@
 ||dywolfer.de/*
 *c1527284015933.js
 ||scr.wfcdn.de/1/*/*.jpg
-||goldesel.sx/img/*.gif
+||goldesel.bz/img/*.gif
 winfuture.de##.OUTBRAIN.nodigidip
 finanzen.net###news-contentads
 winfuture.de##.acceptable_ad
@@ -19,7 +19,7 @@ heise.de##.adbottom.akwa-ad-container.akwa-ad-container__ad-bottom
 boersennews.de##div[class*="pub_ads"]+div
 boersennews.de##.col-md-4
 finanzen.net##img[referrerpolicy*="unsafe-url"]
-goldesel.sx#?#:-abp-has(> div > a > img)
+goldesel.bz#?#:-abp-has(> div > a > img)
 gmx.net##nav-app-dialog[class*=dialog-app__blocker]
 2conv.com##.simple-modal_opened
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js
